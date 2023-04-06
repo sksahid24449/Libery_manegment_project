@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.xfactor.openlibrary.domain.Admin;
+import com.xfactor.openlibrary.repositories.AdminRepository;
+
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
