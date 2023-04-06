@@ -9,37 +9,27 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "tbl_book")
+@Table(name = "Tbl_Book")
 public class Book {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column
-    private String title;
-
+    @Column @NotNull
+    private String name;
     @Column
     private String author;
-
     @Column
     private String isbn;
-
     @Column
-    private String publication_date;
-
+    private String publicationDate;
     @Column
-    private String publisher;
-
+    private String Publisher;
     @Column
-    private int copies;
-
+    private Long copies;
     @Column
     private String category;
-
     @Column
     private String genre;
-
     @Column
     private String subgenre;
 
@@ -51,12 +41,12 @@ public class Book {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAuthor() {
@@ -75,27 +65,27 @@ public class Book {
         this.isbn = isbn;
     }
 
-    public String getPublication_date() {
-        return publication_date;
+    public String getPublicationDate() {
+        return publicationDate;
     }
 
-    public void setPublication_date(String publication_date) {
-        this.publication_date = publication_date;
+    public void setPublicationDate(String publicationDate) {
+        this.publicationDate = publicationDate;
     }
 
     public String getPublisher() {
-        return publisher;
+        return Publisher;
     }
 
     public void setPublisher(String publisher) {
-        this.publisher = publisher;
+        Publisher = publisher;
     }
 
-    public int getCopies() {
+    public Long getCopies() {
         return copies;
     }
 
-    public void setCopies(int copies) {
+    public void setCopies(Long copies) {
         this.copies = copies;
     }
 
@@ -122,5 +112,4 @@ public class Book {
     public void setSubgenre(String subgenre) {
         this.subgenre = subgenre;
     }
-
 }

@@ -21,6 +21,7 @@ public class StudentController{
     public StudentController(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
     }
+
     private StudentRepository studentRepository;
 
     
@@ -70,5 +71,5 @@ public class StudentController{
     public List<Student> findByname(@PathVariable String name) {
         List<Student> students = studentRepository.findByName(name);
         return students;
-    }
+    }
 }
