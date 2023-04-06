@@ -1,11 +1,11 @@
 table {
       overflow: auto;
       border-collapse: collapse;
-      width: 100%;
+      inline-size: 100%;
     }
     
     th, td {
-      text-align: left;
+      text-align: start;
       padding: 8px;
     }
     

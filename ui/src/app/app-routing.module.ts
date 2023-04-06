@@ -5,7 +5,7 @@ import { AdminComponent } from './admin/admin.component';
 import { BookComponent } from './book/book.component';
 import { HomeComponent } from './home/home.component';
 import { PublishersComponent } from './publishers/publishers.component';
-import { StudentsComponent } from './students/students.component';
+import { StudentComponent } from './students/students.component';
 import { AddStudentsComponent } from './add-students/add-students.component';
 
 const routes: Routes = [
@@ -23,7 +23,7 @@ const routes: Routes = [
   },
   {
     path: 'students',
-    component: StudentsComponent,
+    component: StudentComponent,
   },
   {
     path: 'publishers',

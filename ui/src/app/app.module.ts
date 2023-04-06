@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
 import { AdminComponent } from './admin/admin.component';
 import { PublishersComponent } from './publishers/publishers.component';
-import { StudentsComponent } from './students/students.component';
+import { StudentComponent } from './students/students.component';
 import { AuthorComponent } from './author/author.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
@@ -22,7 +22,7 @@ import { AddStudentsComponent } from './add-students/add-students.component'
     BookComponent,
     AdminComponent,
     PublishersComponent,
-    StudentsComponent,
+    StudentComponent,
     AuthorComponent,
     SidenavComponent,
     HomeComponent,
