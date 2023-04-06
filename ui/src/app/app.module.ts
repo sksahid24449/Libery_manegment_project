@@ -14,7 +14,10 @@ import { AddAdminComponent } from './add-admin/add-admin.component';
 import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { AddBooksComponent } from './add-books/add-books.component';
 import { HttpClientModule} from '@angular/common/http';
-import { AddStudentsComponent } from './add-students/add-students.component'
+import { AddStudentsComponent } from './add-students/add-students.component';
+import { AddLoansComponent } from './add-loans/add-loans.component';
+import { AddAuthorsComponent } from './add-authors/add-authors.component';
+import { AddPublishersComponent } from './add-publishers/add-publishers.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { AddStudentsComponent } from './add-students/add-students.component'
     HomeComponent,
     AddAdminComponent,
     AddBooksComponent,
-    AddStudentsComponent
+    AddStudentsComponent,
+    AddLoansComponent,
+    AddAuthorsComponent,
+    AddPublishersComponent
   ],
   imports: [
     BrowserModule,
